@@ -13,6 +13,11 @@
 		EF846AE3203695D800EC4AA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF846AE1203695D800EC4AA8 /* Main.storyboard */; };
 		EF846AE5203695D800EC4AA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF846AE4203695D800EC4AA8 /* Assets.xcassets */; };
 		EF846AE8203695D800EC4AA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF846AE6203695D800EC4AA8 /* LaunchScreen.storyboard */; };
+		EFEF853420369C6C00752789 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEF852F20369C6C00752789 /* City.swift */; };
+		EFEF853520369C6C00752789 /* CityGuide.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFEF853020369C6C00752789 /* CityGuide.storyboard */; };
+		EFEF853620369C6C00752789 /* CityGuideCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEF853120369C6C00752789 /* CityGuideCell.swift */; };
+		EFEF853720369C6C00752789 /* CityGuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEF853220369C6C00752789 /* CityGuideViewController.swift */; };
+		EFEF853820369C6C00752789 /* CityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEF853320369C6C00752789 /* CityViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		EF846AE4203695D800EC4AA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF846AE7203695D800EC4AA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF846AE9203695D800EC4AA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFEF852F20369C6C00752789 /* City.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		EFEF853020369C6C00752789 /* CityGuide.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CityGuide.storyboard; sourceTree = "<group>"; };
+		EFEF853120369C6C00752789 /* CityGuideCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityGuideCell.swift; sourceTree = "<group>"; };
+		EFEF853220369C6C00752789 /* CityGuideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityGuideViewController.swift; sourceTree = "<group>"; };
+		EFEF853320369C6C00752789 /* CityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +88,7 @@
 		EF846ADC203695D800EC4AA8 /* ios-jptrip */ = {
 			isa = PBXGroup;
 			children = (
+				EFEF852E20369C6C00752789 /* CityGuide */,
 				EF846ADD203695D800EC4AA8 /* AppDelegate.swift */,
 				EF846ADF203695D800EC4AA8 /* ViewController.swift */,
 				EF846AE1203695D800EC4AA8 /* Main.storyboard */,
@@ -86,6 +97,18 @@
 				EF846AE9203695D800EC4AA8 /* Info.plist */,
 			);
 			path = "ios-jptrip";
+			sourceTree = "<group>";
+		};
+		EFEF852E20369C6C00752789 /* CityGuide */ = {
+			isa = PBXGroup;
+			children = (
+				EFEF852F20369C6C00752789 /* City.swift */,
+				EFEF853020369C6C00752789 /* CityGuide.storyboard */,
+				EFEF853120369C6C00752789 /* CityGuideCell.swift */,
+				EFEF853220369C6C00752789 /* CityGuideViewController.swift */,
+				EFEF853320369C6C00752789 /* CityViewController.swift */,
+			);
+			path = CityGuide;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +175,7 @@
 			files = (
 				EF846AE8203695D800EC4AA8 /* LaunchScreen.storyboard in Resources */,
 				EF846AE5203695D800EC4AA8 /* Assets.xcassets in Resources */,
+				EFEF853520369C6C00752789 /* CityGuide.storyboard in Resources */,
 				EF846AE3203695D800EC4AA8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,8 +241,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFEF853720369C6C00752789 /* CityGuideViewController.swift in Sources */,
 				EF846AE0203695D800EC4AA8 /* ViewController.swift in Sources */,
+				EFEF853620369C6C00752789 /* CityGuideCell.swift in Sources */,
 				EF846ADE203695D800EC4AA8 /* AppDelegate.swift in Sources */,
+				EFEF853420369C6C00752789 /* City.swift in Sources */,
+				EFEF853820369C6C00752789 /* CityViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
