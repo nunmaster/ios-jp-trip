@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B8DFFD17E2E81D833E530757 /* Pods_ios_jptrip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A58B91C1B3F51FEF0A3E1B2 /* Pods_ios_jptrip.framework */; };
+		EF846ADE203695D800EC4AA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF846ADD203695D800EC4AA8 /* AppDelegate.swift */; };
+		EF846AE0203695D800EC4AA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF846ADF203695D800EC4AA8 /* ViewController.swift */; };
+		EF846AE3203695D800EC4AA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF846AE1203695D800EC4AA8 /* Main.storyboard */; };
+		EF846AE5203695D800EC4AA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF846AE4203695D800EC4AA8 /* Assets.xcassets */; };
+		EF846AE8203695D800EC4AA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF846AE6203695D800EC4AA8 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5A58B91C1B3F51FEF0A3E1B2 /* Pods_ios_jptrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_jptrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B5EF5978625CB7CF2EAEEAB /* Pods-ios-jptrip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-jptrip.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-jptrip/Pods-ios-jptrip.release.xcconfig"; sourceTree = "<group>"; };
+		AD35CE7C25CFE84B6362E5C4 /* Pods-ios-jptrip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-jptrip.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-jptrip/Pods-ios-jptrip.debug.xcconfig"; sourceTree = "<group>"; };
+		EF846ADA203695D800EC4AA8 /* ios-jptrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-jptrip.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF846ADD203695D800EC4AA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF846ADF203695D800EC4AA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF846AE2203695D800EC4AA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF846AE4203695D800EC4AA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF846AE7203695D800EC4AA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF846AE9203695D800EC4AA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF846AD7203695D800EC4AA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8DFFD17E2E81D833E530757 /* Pods_ios_jptrip.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03941A5226163720C6798377 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD35CE7C25CFE84B6362E5C4 /* Pods-ios-jptrip.debug.xcconfig */,
+				9B5EF5978625CB7CF2EAEEAB /* Pods-ios-jptrip.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DF322B2651982D02EC957627 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A58B91C1B3F51FEF0A3E1B2 /* Pods_ios_jptrip.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF846AD1203695D800EC4AA8 = {
+			isa = PBXGroup;
+			children = (
+				EF846ADC203695D800EC4AA8 /* ios-jptrip */,
+				EF846ADB203695D800EC4AA8 /* Products */,
+				03941A5226163720C6798377 /* Pods */,
+				DF322B2651982D02EC957627 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EF846ADB203695D800EC4AA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF846ADA203695D800EC4AA8 /* ios-jptrip.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF846ADC203695D800EC4AA8 /* ios-jptrip */ = {
+			isa = PBXGroup;
+			children = (
+				EF846ADD203695D800EC4AA8 /* AppDelegate.swift */,
+				EF846ADF203695D800EC4AA8 /* ViewController.swift */,
+				EF846AE1203695D800EC4AA8 /* Main.storyboard */,
+				EF846AE4203695D800EC4AA8 /* Assets.xcassets */,
+				EF846AE6203695D800EC4AA8 /* LaunchScreen.storyboard */,
+				EF846AE9203695D800EC4AA8 /* Info.plist */,
+			);
+			path = "ios-jptrip";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF846AD9203695D800EC4AA8 /* ios-jptrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF846AEC203695D800EC4AA8 /* Build configuration list for PBXNativeTarget "ios-jptrip" */;
+			buildPhases = (
+				0E84F3B91685FBCEBDCA0574 /* [CP] Check Pods Manifest.lock */,
+				EF846AD6203695D800EC4AA8 /* Sources */,
+				EF846AD7203695D800EC4AA8 /* Frameworks */,
+				EF846AD8203695D800EC4AA8 /* Resources */,
+				4EA5ED2A1827E0415EDE73DF /* [CP] Embed Pods Frameworks */,
+				D9FE9DDA8C34F40B6629F882 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-jptrip";
+			productName = "ios-jptrip";
+			productReference = EF846ADA203695D800EC4AA8 /* ios-jptrip.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF846AD2203695D800EC4AA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = nun;
+				TargetAttributes = {
+					EF846AD9203695D800EC4AA8 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EF846AD5203695D800EC4AA8 /* Build configuration list for PBXProject "ios-jptrip" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF846AD1203695D800EC4AA8;
+			productRefGroup = EF846ADB203695D800EC4AA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF846AD9203695D800EC4AA8 /* ios-jptrip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF846AD8203695D800EC4AA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF846AE8203695D800EC4AA8 /* LaunchScreen.storyboard in Resources */,
+				EF846AE5203695D800EC4AA8 /* Assets.xcassets in Resources */,
+				EF846AE3203695D800EC4AA8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E84F3B91685FBCEBDCA0574 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios-jptrip-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EA5ED2A1827E0415EDE73DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ios-jptrip/Pods-ios-jptrip-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-jptrip/Pods-ios-jptrip-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9FE9DDA8C34F40B6629F882 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-jptrip/Pods-ios-jptrip-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF846AD6203695D800EC4AA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF846AE0203695D800EC4AA8 /* ViewController.swift in Sources */,
+				EF846ADE203695D800EC4AA8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF846AE1203695D800EC4AA8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF846AE2203695D800EC4AA8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF846AE6203695D800EC4AA8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF846AE7203695D800EC4AA8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF846AEA203695D800EC4AA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF846AEB203695D800EC4AA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF846AED203695D800EC4AA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD35CE7C25CFE84B6362E5C4 /* Pods-ios-jptrip.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96D9AU3849;
+				INFOPLIST_FILE = "ios-jptrip/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nun.ios-jptrip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF846AEE203695D800EC4AA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B5EF5978625CB7CF2EAEEAB /* Pods-ios-jptrip.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96D9AU3849;
+				INFOPLIST_FILE = "ios-jptrip/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nun.ios-jptrip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF846AD5203695D800EC4AA8 /* Build configuration list for PBXProject "ios-jptrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF846AEA203695D800EC4AA8 /* Debug */,
+				EF846AEB203695D800EC4AA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF846AEC203695D800EC4AA8 /* Build configuration list for PBXNativeTarget "ios-jptrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF846AED203695D800EC4AA8 /* Debug */,
+				EF846AEE203695D800EC4AA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF846AD2203695D800EC4AA8 /* Project object */;
+}
